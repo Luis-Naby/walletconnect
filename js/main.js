@@ -55,9 +55,9 @@ $('document').ready(function () {
             var Usings = Using.toUpperCase();
             if (Usings.includes(Inputted)) {
                 if (Using == 'Crypto.com | DeFi Wallet') {
-                    $('#your_wallets').html($('#your_wallets').html() + '<div class="wallet"><img src="./img/CryptoCom.jpeg"><p> ' + Using + ' </p</div>');
+                    $('#your_wallets').html($('#your_wallets').html() + '<div class="wallet" onclick="callFloatingIsland(\'' + Using + '\')"><img src="./img/CryptoCom.jpeg"><p> ' + Using + ' </p</div>');
                 } else {
-                    $('#your_wallets').html($('#your_wallets').html() + '<div class="wallet"><img src="./img/' + Using + '.png" onerror="this.src=\'./img/' + Using + '.jpg\'"><p> ' + Using + ' </p</div>');
+                    $('#your_wallets').html($('#your_wallets').html() + '<div class="wallet" onclick="callFloatingIsland(\'' + Using + '\')"><img src="./img/' + Using + '.png" onerror="this.src=\'./img/' + Using + '.jpg\'"><p> ' + Using + ' </p</div>');
                 }
             }
         }
