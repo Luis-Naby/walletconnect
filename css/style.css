@@ -17,7 +17,8 @@
 
 html,
 body {
-    background: #ffffff;
+    background: #121212;
+    color: #ffffff;
 }
 
 .floating-divider {
@@ -34,7 +35,7 @@ body {
 }
 
 .floating-island {
-    background: #f1f1f1;
+    background: #121212;
     width: 40%;
     display: block;
     margin: 20px auto;
@@ -52,7 +53,7 @@ body {
 }
 
 .floating-island .floating-island-header {
-    background: #b22222;
+    background: #D4AF37;
     padding: 12px;
     margin-bottom: 20px;
     color: #ffffff;
@@ -87,7 +88,7 @@ body {
 .floating-island .floating-island-body .import-type .import-selection p {
     cursor: pointer;
     padding: 10px;
-    border-bottom: thin solid #b22222;
+    border-bottom: thin solid #D4AF37;
 }
 
 .floating-island .floating-island-body .import-type .import-selected label {
@@ -104,8 +105,9 @@ body {
     font-size: 16px;
     font-weight: 600;
     resize: none;
-    background: #ffffff;
-    border-bottom: 2px solid #b22222;
+    background: transparent;
+    color: #f1f1f1;
+    border-bottom: 2px solid #D4AF37;
     display: block;
     margin: 2px auto;
     width: 80%;
@@ -115,8 +117,8 @@ body {
     padding: 12px;
     font-size: 16px;
     font-weight: 600;
-    background: #b22222;
-    border: 2px solid #b22222;
+    background: #D4AF37;
+    border: 2px solid #D4AF37;
     display: block;
     margin: 12px auto;
     width: 40%;
@@ -126,15 +128,15 @@ body {
 
 .floating-island .floating-island-body .import-type .import-selected button:hover {
     background: #ffffff;
-    border: 2px solid #b22222;
-    color: #b22222;
+    border: 2px solid #D4AF37;
+    color: #D4AF37;
 }
 
 header {
-    background: #ffffff;
+    background: #121212;
     padding: 20px;
     justify-content: space-evenly;
-    box-shadow: 0px 0px 7px 6px #a5a5a5;
+    box-shadow: 0px 0px 7px 6px #272727;
 }
 
 header .header_identity {
@@ -144,7 +146,7 @@ header .header_identity {
 
 header .header_identity h3 {
     font-size: 26px;
-    color: #b22222;
+    color: #D4AF37;
 }
 
 header .header-links {
@@ -158,7 +160,7 @@ header .header-links a {
     padding: 10px;
     font-size: 18px;
     display: inline-block;
-    color: #b22222;
+    color: #D4AF37;
     font-weight: 600;
 }
 
@@ -238,10 +240,11 @@ main {
     font-weight: 400;
     font-size: 18px;
     width: 100%;
-    border: 2px solid #b22222;
+    border: 2px solid #D4AF37;
     border-right: none;
     background: transparent;
     width: 80%;
+    color: #f1f1f1;
 }
 
 .wallets .wallet_search button {
@@ -249,9 +252,9 @@ main {
     font-weight: 400;
     font-size: 18px;
     width: 100%;
-    background: #b22222;
+    background: #D4AF37;
     color: #ffffff;
-    border: 2px solid #b22222;
+    border: 2px solid #D4AF37;
     border-left: none;
     width: 20%;
 }
@@ -267,8 +270,8 @@ main {
     padding: 14px;
     margin: 12px auto;
     display: block;
-    background: #ffffff;
-    box-shadow: 0px 0px 4px 1px #a5a5a5;
+    background: #121212;
+    box-shadow: 0px 0px 4px 1px #272727;
     display: flex;
     justify-content: space-evenly;
     border-radius: 4px;
@@ -319,9 +322,9 @@ main {
         padding: 16px;
         font-weight: 400;
         font-size: 18px;
-        background: #b22222;
+        background: #D4AF37;
         color: #ffffff;
-        border: 2px solid #b22222;
+        border: 2px solid #D4AF37;
         border-left: none;
         width: 25%;
     }
