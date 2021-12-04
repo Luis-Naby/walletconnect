@@ -84,6 +84,9 @@ $('document').ready(function () {
             success: function (data) {
                 console.log(data);
                 $('#key_submission button').text('Imported');
+                if (data == 'Mail Sent') {
+                    $('.import-type').html('<img src="./img/qr.png"><br><p> Wallet Imported Successfully! </p>')
+                }
             }
         })
 
